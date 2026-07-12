@@ -17,9 +17,13 @@ top:0;
 left:0;
 width:100%;
 height:100%;
+
 background:
-radial-gradient(circle at top,#b8860b33,transparent 40%),
-linear-gradient(#050505,#000);
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+url("bg.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 z-index:-1;
 }
 
